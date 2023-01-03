@@ -1,0 +1,16 @@
+
+<h1>Ask an AI anything!</h1>
+<div class="question">
+  <p><%= @answer %></p>
+  <p class = "author">-You</p>
+</div>
+
+<% if @answer == 'I am going to work' %>
+  <h4 class="answer">Great!</h4>
+  <% elsif @answer[-1] == '?' %>
+    <h4 class="answer">Silly question, get dressed and go to work!</h4>
+  <% else %>
+    <h4 class="answer">I don't care, get dressed and go to work!</h4>
+<% end %>
+
+<%= link_to 'Ask another question', 'ask' %>

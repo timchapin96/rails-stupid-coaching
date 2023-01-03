@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+.question {
+  /* box-sizing: border-box; */
+  box-shadow: 0px 5px 5px 5px rgb(205, 205, 205);
+  width: 30%;
+  padding: 10px;
+  border-left: solid 5px orange;
+}
+.author {
+  opacity: 0.5;
+  font-style: italic;
+}
+.answer {
+  /* box-sizing: border-box; */
+  box-shadow: 0px 5px 5px 5px rgb(205, 205, 205);
+  width: 30%;
+  padding: 20px;
+  border-left: solid 5px purple;
+}
